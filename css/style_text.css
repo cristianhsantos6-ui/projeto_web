@@ -1,0 +1,40 @@
+/*
+seletor{
+    propriedade: valor;
+    propriedade: valor;
+}
+*/
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: blue;
+}
+
+p {
+    font-family:  Helvetica;
+    text-align: justify;
+    line-height: 35px;
+    color: blueviolet;
+}
+
+#paragrafo01{
+    margin-left: 250px;
+    text-transform: uppercase;
+}
+
+#paragrafo02 {
+    margin-right: 300px;
+    background-color: blueviolet;
+}
+
+.paragrafos{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    line-height: 70px;
+}
+
+.parag_especial {
+    text-decoration: line-through;
+}
