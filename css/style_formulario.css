@@ -1,9 +1,9 @@
 #div-form{
-    width: 550px;
-    min-height: 600px;
-    margin: 25px auto;
-    padding: 25px;
-    background-color: blueviolet;
+    width: 500px;
+    min-height: 500px;
+    margin: 22px auto;
+    padding: 20px;
+    background-color: rgb(14, 148, 92);
     border-radius: 10px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -15,6 +15,39 @@ h3{
 
 
 #form{
-    background-color: aliceblue;
+    background-color: rgb(4, 127, 221);
     padding: 12px;
 }
+
+label{
+    display: block;
+    margin: 15px auto;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 1.8em;
+}
+
+.input-vlr01{
+    width: 400px;
+}
+
+.input-vlr01, .input-vlr02{
+    height: 40px;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 1.3em;
+}
+
+.input-vlr02{
+    width: 200px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+
+
+
