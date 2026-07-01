@@ -1,0 +1,20 @@
+#div-form{
+    width: 550px;
+    min-height: 600px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+
+#form{
+    background-color: aliceblue;
+    padding: 12px;
+}
