@@ -1,9 +1,9 @@
 #div-form{
     width: 500px;
-    min-height: 500px;
+    min-height: 400px;
     margin: 22px auto;
     padding: 20px;
-    background-color: rgb(14, 148, 92);
+    background-color: rgb(3, 212, 73);
     border-radius: 10px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -15,7 +15,7 @@ h3{
 
 
 #form{
-    background-color: rgb(4, 127, 221);
+    background-color: rgb(242, 246, 248);
     padding: 12px;
 }
 
@@ -39,7 +39,7 @@ label{
 }
 
 .input-vlr02{
-    width: 200px;
+    width: 300px;
 }
 
 input[type="radio"], input[type="checkbox"]{
@@ -48,6 +48,41 @@ input[type="radio"], input[type="checkbox"]{
     cursor: pointer;
 }
 
+textarea{
+    width: 400px;
+    height: 100;
+    padding: 20px;
+    resize: none;
+}
 
+#div-bnts{
+    border: solid 5px ;
+    margin: 20px 0px;
+}
+
+button{
+    width: 130px;
+    height: 30px;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: rgb(5, 224, 151);
+    letter-spacing: 5px;
+}
+
+a:link{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: rgb(24, 248, 173);
+    background-color: rgb(5, 133, 69);
+}
+
+    a:hover{
+        color: rgb(1, 58, 46);
+        background-color: rgb(2, 27, 19);
+    }
+
+    
 
 
